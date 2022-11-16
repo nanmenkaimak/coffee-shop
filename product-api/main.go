@@ -57,8 +57,8 @@ func main() {
 		Addr:         *bindAddress,      // configure the bind address
 		Handler:      sm,                // set the default handler
 		ErrorLog:     l,                 // set the logger for the server
-		ReadTimeout:  5 * time.Second,   // max time to read request from the client
-		WriteTimeout: 10 * time.Second,  // max time to write response to the client
+		ReadTimeout:  5 * time.Second,   // max time to read request from the sdk
+		WriteTimeout: 10 * time.Second,  // max time to write response to the sdk
 		IdleTimeout:  120 * time.Second, // max time for connections using TCP Keep-Alive
 	}
 

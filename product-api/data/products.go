@@ -16,13 +16,13 @@ type Product struct {
 	// min: 1
 	ID int `json:"id"` // Unique identifier for the product
 
-	// the name for this product
+	// the name for this poduct
 	//
 	// required: true
 	// max length: 255
 	Name string `json:"name" validate:"required"`
 
-	// the description for this product
+	// the description for this poduct
 	//
 	// required: false
 	// max length: 10000
@@ -119,7 +119,7 @@ var productList = []*Product{
 	},
 	&Product{
 		ID:          2,
-		Name:        "Espresso",
+		Name:        "Esspresso",
 		Description: "Short and strong coffee without milk",
 		Price:       1.99,
 		SKU:         "fjd34",
