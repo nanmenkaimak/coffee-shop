@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/nanmenkaimak/coffeshop/data"
+	"github.com/nanmenkaimak/product-api/data"
 	"net/http"
 )
 

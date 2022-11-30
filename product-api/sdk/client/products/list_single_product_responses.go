@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/nanmenkaimak/coffeshop/sdk/models"
+	"github.com/nanmenkaimak/product-api/sdk/models"
 )
 
 // ListSingleProductReader is a Reader for the ListSingleProduct structure.
